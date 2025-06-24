@@ -70,10 +70,11 @@ main {
 .current-details strong {
   color: #f65282;
 }
-
+.current-temperature {
+  display: flex;
+}
 .current-temperature-icon {
-  position: relative;
-  top: -8px;
+   top: 10px;
   font-size: 40px;
   margin-right: 10px;
 }
@@ -85,8 +86,8 @@ main {
 
 .current-temperature-unit {
   font-size: 28px;
-  position: relative;
-  top: -38px;
+  
+  top: -25px;
 }
 
 footer {
